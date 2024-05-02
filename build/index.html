@@ -48,35 +48,36 @@
                 <p class="text2">
                     насладись прогулкой в горах с командой единомышленников
                 </p>
-                <div class="list">
-                    <form>
+                <form>
+                    <div class="list">
                         <div class="select">
-                            <label for="fruits">Выберете из списка</label>
-                            <select id="fruits" name="fruits">
-                                <option value="apple">горы</option>
-                                <option value="banana">лес</option>
-                                <option value="orange">водопад</option>
+                            <label for="location">Выберете из списка</label>
+                            <select id="location" name="location">
+                                <option value="default" selected>Локация для тура</option>
+                                <option value="mountains">горы</option>
+                                <option value="forest">лес</option>
+                                <option value="waterfall">водопад</option>
                             </select>
                         </div>
-                    </form>
-                    <form>
-                        <div class="select">
-                            <label for="fruits">Выберете из списка</label>
-                            <select id="fruits" name="fruits">
-                                <option value="apple">горы</option>
-                                <option value="banana">лес</option>
-                                <option value="orange">водопад</option>
-                            </select>
-                        </div>
-                    </form>
-                    <form>
                         <div class="select selectCalendar">
                             <label>Укажите диапазон</label>
                             <input type="date"/>
                         </div>
-                    </form>
-                    <button class="button2 text3" type="button">Найти программу</button>
-                </div>
+                        <div class="select">
+                            <label for="people">Минимум 4 человека</label>
+                            <select id="people" name="people">
+                                <option value="default" selected>Участники</option>
+                                <option value="olessia">Олеся</option>
+                                <option value="valera">Валера</option>
+                                <option value="masha">Маша</option>
+                                <option value="pasha">Паша</option>
+                                <option value="jorik">Жорик</option>
+                                <option value="margo">Маргоша</option>
+                            </select>
+                        </div>
+                        <button class="button2 text3" type="button">Найти программу</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
